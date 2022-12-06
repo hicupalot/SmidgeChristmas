@@ -1,0 +1,19 @@
+name: SmidgeChristmas
+version: 1.0
+main: SmidgeChristmas
+api-version: 1.19
+author: hicupalot
+
+commands:
+  SecretSanta:
+    description: Secret Santa
+    permission: smidgeChristmas.admin
+    aliases: [secretsanta, secretstart]
+  ToggleSnowBallFight:
+    description: Snowball
+    permission: smidgeChristmas.admin
+    aliases: [snowballfight, snowball]
+permissions:
+  smidgeChristmas.admin:
+    description: "Admin Perms for Christmas"
+    default: op
